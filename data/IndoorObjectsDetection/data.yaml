@@ -1,0 +1,18 @@
+train_data_path: ../data/IndoorObjectsDetection/train/images
+train_labels_path: ../data/IndoorObjectsDetection/train/labels
+val_data_path: ../data/IndoorObjectsDetection/valid/images
+val_labels_path: ../data/IndoorObjectsDetection/valid/labels
+test_data_path: ../data/IndoorObjectsDetection/test/images
+test_labels_path: ../data/IndoorObjectsDetection/test/labels
+nc: 10
+names: 
+- door
+- cabinetDoor
+- refrigeratorDoor
+- window
+- chair
+- table
+- cabinet
+- couch
+- openedDoor
+- pole
